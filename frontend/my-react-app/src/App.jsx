@@ -15,7 +15,7 @@ function App() {
       </div>
       <div className="icon-container">
         <div className="icon-item">
-          <a href="https://react.dev" target="_blank">
+          <a href="https://6xk88r85-8080.use.devtunnels.ms/" target="_blank">
             <img src={listenLogo} className="logo" alt="listen logo" />
           </a>
           <p>tear analysis</p>
@@ -24,10 +24,10 @@ function App() {
           <a href="https://6xk88r85-8501.use.devtunnels.ms/" target="_blank">
             <img src={babyLogo} className="logo" alt="baby logo" />
           </a>
-          <p>baby monitor</p>
+          <p>health and history</p>
         </div>
         <div className="icon-item">
-          <a href="https://react.dev" target="_blank">
+          <a href="https://6xk88r85-8501.use.devtunnels.ms/" target="_blank">
             <img src={cribLogo} className="logo" alt="crib logo" />
           </a>
           <p>crib safety</p>
