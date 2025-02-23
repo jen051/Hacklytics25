@@ -21,7 +21,7 @@ function App() {
           <p>tear analysis</p>
         </div>
         <div className="icon-item">
-          <a href="https://vite.dev" target="_blank">
+          <a href="https://6xk88r85-8501.use.devtunnels.ms/" target="_blank">
             <img src={babyLogo} className="logo" alt="baby logo" />
           </a>
           <p>baby monitor</p>
