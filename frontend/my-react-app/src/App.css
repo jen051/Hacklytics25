@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  fill: #F1E3D3;
+  stroke-width: 5px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 5em #F1E3D3);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem; /* Adjust the gap between icons as needed */
+  margin-bottom: 1rem; /* Reduce the bottom margin */
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-item p {
+  margin-top: 0.5rem; /* Adjust the spacing between the icon and text as needed */
+  color: #F1E3D3; /* Set the text color */
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif; /* Apply the same font as headings */
+  text-transform: none; /* Ensure the text is not in all caps */
+}
+
+h1 {
+  margin-top: 0.5rem; /* Reduce the top margin */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.white-text {
+  color: white; /* Set the text color to white */
+}
+
+body {
+  background-color: #8E7DBE; /* Replace with your desired color */
+}
+
+.logo svg {
+  fill: #F1E3D3; /* Set the desired color here */
+}
+
+p {
+  color: #F1E3D3; /* Set the desired color here */
+}
